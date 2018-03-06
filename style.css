@@ -3,16 +3,56 @@
 }
 body{
   background: black;
+  font-family: monospace;/*1 changed font type*/
+  background-image: url(https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fblog.erosnow.com%2Fwp-content%2Fuploads%2F2014%2F03%2FBest-top-desktop-abstract-pattern-wallpapers-hd-wallpaper-pattern-pictures-and-images-50.jpg&f=1); /* 2 inserted background image */
+}
+h1 {
+  text-align: center; /*3 make text center*/
+  border-top: ridge red 5px; /*4 gave red border*/
+  border-bottom: ridge red 5px; /*5 gave red border*/
+  color: blue;/*6 changed font color*/
+}
+h2 {
+  color: blue/*7 changed font color*/;
+  text-transform: uppercase;/*8 make sentence all caps*/
+  border-bottom: solid black 1px;/*9 gave samll bottom border*/
+}
+h4 {
+  margin: 0; /*10 took away extra space*/
+  text-decoration: underline;/*11 underlined text*/
+  color: green;/*12 made font green*/
+
+}
+a {
+  text-decoration: none; /*13 took away link underline*/
+}
+img {
+  max-width: 100%; /*14 made image fit container*/
+  border: red inset 5px;/*15 have red border*/
+  padding: 7px;/*16 gave space between image and border*/
+}
+ol {
+  padding-bottom: 12px;/*17 gave space on bottom*/
+  padding-left: 60px;/* 18 gave space on right*/
+  text-decoration-color: red; /*19 made text decoration red*/
+  border-bottom: solid black 1px; /*20 gave small border*/
+  font-weight: bold;/*21 made text bold*/
+  font-style: italic;/*22 made text italic*/
+}
+ul {
+  padding-left: 60px; /*23 gave space on left*/
+  border-bottom: solid black 1px;/*24 gave bottom border*/
+  font-style: italic;/*25 made text italic*/
 }
 @media (min-width: 650px) {
   .left-column {
     float: left;
-    width: 50%;
-    padding-right: 20px
+    width: 45%;
+    margin-right: 20px
   }
   .right-column {
     float: right;
-    width: 50%;
+    width: 45%;
   }
 }
 .container {
@@ -21,6 +61,19 @@ body{
   background: gray;
   padding-left: 20px;
   padding-right: 20px;
-  border: solid black 5px;
+  border: double black 5px; /*26 have double border*/
   overflow: auto;
+  padding-bottom: 30px;/*27 gave space at bottom*/
+  opacity: .9; /*28 made slightly opaue*/
+
+}
+.byline {
+  padding-right: 30px; /*29 gave byline right space*/
+  text-align: right;/*30 aligned text right*/
+  font-size: 20px;/*31 made font bigger*/
+}
+.publish-time {
+  text-align: center;; /*32 aligned text center*/
+  font-size: 10px; /*33 made font smaller*/
+
 }
