@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body{
   background: black;
 }
@@ -8,4 +11,13 @@ body{
   padding-left: 20px;
   padding-right: 20px;
   border: solid black 5px;
+  overflow: auto;
+}
+.left-column {
+  float: left;
+  width: 50%;
+}
+.right-column {
+  float: right;
+  width: 50%;
 }
